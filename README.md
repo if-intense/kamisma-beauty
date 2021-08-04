@@ -1,1 +1,1 @@
-# kamisma-beauty
+HTML5/Bootstrap/SASS(SCSS) Only

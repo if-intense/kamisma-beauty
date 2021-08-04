@@ -267,6 +267,7 @@ section .container {
   background-position: center;
   background-size: cover;
   padding: 0;
+  font-family: "Shippori Mincho B1", serif;
 }
 .section09 .container {
   padding: 5vh 0;
@@ -466,7 +467,7 @@ footer .container p a {
   }
   .jumbotron .container .logo h5 {
     font-size: 12px;
-    line-height: 1.75em;
+    line-height: 2em;
   }
 
   section .container {
@@ -500,7 +501,7 @@ footer .container p a {
 
   .section01 .main h5, .section01 .main h4 {
     font-size: 0.8em;
-    line-height: 1.5em;
+    line-height: 2em;
   }
 
   .section01 .container {

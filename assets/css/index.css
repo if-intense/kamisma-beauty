@@ -8,6 +8,19 @@ body {
   display: none;
 }
 
+.p-img {
+  text-align: right;
+  font-size: 0.7em;
+  margin-top: 10px;
+}
+
+.p-img2 {
+  text-align: right;
+  font-size: 0.7em;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .for-phone {
   display: none;
 }
@@ -269,6 +282,11 @@ section .container {
   padding: 0;
   font-family: "Shippori Mincho B1", serif;
 }
+.section09 p {
+  text-align: right;
+  padding: 10px 20px 0 0;
+  font-size: 0.8em;
+}
 .section09 .container {
   padding: 5vh 0;
 }
@@ -299,6 +317,9 @@ section .container {
   color: white;
   font-size: 24px;
   padding: 20px 0;
+}
+.section10 .container .img-area img {
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.6);
 }
 .section10 .container .maboroshi-container {
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
@@ -420,6 +441,10 @@ footer .container p a {
     width: 90%;
     max-width: 896px;
   }
+
+  .section06 .container .banner .text .inner, .section07 .container .banner .text .inner {
+    margin: 20px auto;
+  }
 }
 @media screen and (max-width: 768px) {
   section .container {
@@ -449,7 +474,7 @@ footer .container p a {
     text-align: center;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
   .br_on {
     display: block;
   }
@@ -475,6 +500,29 @@ footer .container p a {
     margin: 0 auto;
   }
 
+  .section01 .container {
+    width: 100%;
+  }
+  .section01 .container .main h5, .section01 .container .main h4 {
+    font-size: 0.8em;
+  }
+
+  .section04 .container {
+    width: 100%;
+  }
+
+  .section04 .main h5, .section04 .main h4 {
+    font-size: 1em;
+  }
+
+  .section08 .banner .text p {
+    text-align: center;
+  }
+
+  .section09 .container p {
+    font-size: 0.9em;
+    text-align: right;
+  }
   .section09 .container h4 {
     font-size: 1em;
   }

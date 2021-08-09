@@ -13,6 +13,19 @@ body {
     display: none;
 }
 
+.p-img {
+    text-align: right;
+    font-size:0.7em;
+    margin-top:10px;
+}
+
+.p-img2 {
+    text-align: right;
+    font-size:0.7em;
+    margin-top:10px;
+    margin-right:10px;
+}
+
 .for-phone {
     display:none;
 }
@@ -330,8 +343,14 @@ section {
     background-size: cover;
     padding:0;
     font-family: $kamisma-font;
+    p {
+        text-align:right;
+        padding: 10px 20px 0 0;
+        font-size:0.8em;
+    }
     .container {
         padding:5vh 0;
+        
     }
 }
 
@@ -361,6 +380,11 @@ section {
                     font-size: 24px;
                     padding: 20px 0;
                 }
+            }
+        }
+        .img-area {
+            img {
+                box-shadow: 1px 3px 6px rgba(0,0,0, 0.6);
             }
         }
         .maboroshi-container {
@@ -521,6 +545,18 @@ footer {
             max-width: 896px;
         }
     }  
+
+    .section06, .section07 {
+        .container {
+            .banner {
+                .text {
+                    .inner {
+                        margin:20px auto;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -572,7 +608,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
     
     .br_on {
         display: block;
@@ -604,8 +640,47 @@ footer {
         }
     }
 
+    .section01 {
+       .container {
+           width: 100%;
+        .main {
+            h5, h4 {
+                font-size:0.8em;
+            }
+        }
+       }
+    }
+
+    .section04 {
+        .container {
+            width: 100%;
+        }
+    }
+
+    .section04 {
+        .main {
+            h5, h4 {
+                font-size:1em;
+            }
+        }
+    }
+   
+
+    .section08 {
+        .banner {
+            .text {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
     .section09 {
         .container {
+            p {
+                font-size:0.9em;
+                text-align: right;
+            }
             h4 {
                 font-size:1em;
             }
@@ -637,6 +712,10 @@ footer {
             }
         }
     }
+}
+
+@media screen and(max-width: 501px) {
+    
 }
 
 @media screen and (max-width:429px) {

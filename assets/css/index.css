@@ -8,6 +8,10 @@ body {
   display: none;
 }
 
+.br_on_tablet {
+  display: none;
+}
+
 .p-img {
   text-align: right;
   font-size: 0.7em;
@@ -132,7 +136,7 @@ section .container {
   background: #E9B65B;
 }
 .section01 .main {
-  width: clamp(350px, 80%, 912px);
+  width: clamp(350px, 85%, 912px);
   margin: 0 auto;
 }
 .section01 .main h5, .section01 .main h4 {
@@ -432,6 +436,10 @@ footer .container p a {
   }
 }
 @media screen and (max-width: 1025px) {
+  .section01 .main h5, .section01 .main h4 {
+    font-size: 1.2em;
+  }
+
   .section06 .container .banner .text .inner h5, .section07 .container .banner .text .inner h5 {
     font-size: 0.8em;
   }
@@ -440,6 +448,10 @@ footer .container p a {
   section .container {
     width: 90%;
     max-width: 896px;
+  }
+
+  .section01 .main h5, .section01 .main h4 {
+    font-size: 1.1em;
   }
 
   .section06 .container .banner .text .inner, .section07 .container .banner .text .inner {
@@ -452,12 +464,19 @@ footer .container p a {
     max-width: 680px;
   }
 
+  .jumbotron .container .logo h5 {
+    font-size: 1.1em;
+  }
+
   .section06 .container .banner .img, .section07 .container .banner .img {
     margin-bottom: 3vh;
   }
 
   .section10 .container .text, .section10 .container .img-area {
     margin: 0 auto;
+  }
+  .section10 .container .text h3 {
+    font-size: 1em;
   }
 
   .section11 .container .section11-register .col-container {

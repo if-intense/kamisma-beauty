@@ -416,6 +416,13 @@ section .container {
   font-size: 24px;
   padding: 20px 0;
 }
+.section14 .container .sns-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+.section14 .container .sns-links ul li i {
+  font-size: 2em;
+}
 
 footer {
   background: black;

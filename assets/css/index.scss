@@ -1,7 +1,7 @@
 $kamisma-white: #fff;
 $kamisma-gold: #E9B65B;
 $kamisma-grey: linear-gradient(to right, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+$bg-dark: #555555!important;
 $kamisma-font: 'Shippori Mincho B1', serif;
 
 body {
@@ -116,6 +116,7 @@ input[type='checkbox'] {
     width:100%;
     aspect-ratio: 16/9;
     display: flex;
+    background: $bg-dark;
         justify-content: center;
         align-items: center;
     .container {

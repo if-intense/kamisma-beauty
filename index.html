@@ -17,13 +17,36 @@
 <body>
     <div class="wrapper">
 
-      <nav class="navbar navbar-light bg-light">
+      <!-- <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1"><img src="assets/images/kami-charisma-favicon.png" alt="KB" width="40"></span>
+          <a href="https://www.kamisma.com">
+            <span class="navbar-brand mb-0 h1"><img src="assets/images/kami-charisma-favicon.png" alt="KB" width="40"></span>
+          </a>
+        </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.kamisma.com"><img src="assets/images/kami-charisma-favicon.png" alt="KB" width="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">トップ</a>
+              <a class="nav-link" href="#what-is-kamisma">KAMISMA BEAUTYとは</a>
+              <a class="nav-link" href="#maboroshi">幻の一枠</a>
+              <a class="nav-link" href="#star">星の三枠</a>
+              <a class="nav-link" href="#kami-charisma">カミカリスマとは</a>
+              <a class="nav-link" href="#reserve">ご予約</a>
+              <a class="nav-link" href="#howTo">ご利用方法</a>
+              
+            </div>
+          </div>
         </div>
       </nav>
 
-        <div class="jumbotron bg-dark">
+        <div class="jumbotron">
             <div class="container">
                 <div class="logo">
                     <h1><img src="assets/images/kamisma-beauty-gold-logo.png" alt="KAMISMA BEAUTY" class="img-fluid"></h1>
@@ -198,7 +221,7 @@
             </section>
 
             <!-- section04 -->
-            <section class="section04">
+            <section class="section04" id="what-is-kamisma">
                 <div class="container text-center">
                     <div class="main">
                       <h5>KAMISMA BEAUTYでは限定された<br class="br_on">予約枠を開放します。</h5>
@@ -216,7 +239,7 @@
             </section> -->
 
             <!-- section06 -->
-            <section class="section06">
+            <section class="section06" id="maboroshi">
               <div class="container">
                 <div class="row banner g-0">
                   <div class="text col-lg-6 md-6 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-2 order-2 my-auto">
@@ -237,7 +260,7 @@
               </div>
             </section>
 
-            <section class="section07">
+            <section class="section07" id="star">
               <div class="container">
                 <div class="row banner g-0">
                   <div class="img col-lg-6 md-6 col-sm-12 g-0 text-center">
@@ -262,7 +285,7 @@
               </div>
             </section>
 
-            <section class="section08">
+            <section class="section08" id="kami-charisma">
               <div class="container">
                 <div class="row banner g-0">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 text">
@@ -301,7 +324,7 @@
                   <div class="text col-lg-6 col-md-6 col-sm-8 my-auto">
                     <div class="inner">
                       <h3 class="text-center">日本の美容師の中でも一流の美容師、<br>カミカリスマによる、<br class="br_on_tabet">多種多様な幻のメニューを<br class="br_on">ご体感ください。</h3>
-                    <div class="button-area">
+                    <div class="button-area" id="reserve">
                       <h5>【ご予約はこちら】</h5>
                       <a href="https://www.kamisma.com/" target="_blank" class="btn btn-primary my-4">KAMISMA BEAUTYはこちら</a>
                     </div>
@@ -311,14 +334,14 @@
                     <img src="assets/images/maboroshi.png" alt="幻の一枠" class="img-fluid">
                     
                   </div>
-                  <div class="img-area for-phone col-6 offset-3">
+                  <div class="img-area for-phone col-12">
                     <img src="assets/images/maboroshi-ph.png" alt="幻の一枠" class="img-fluid">
                   </div>
                 </div>
               </div>
             </section>
 
-            <div class="wrap-collabsible">
+            <div class="wrap-collabsible" id="howTo">
             <input id="collapsible" class="toggle" type="checkbox">
             <label for="collapsible" class="lbl-toggle">ご利用方法はこちら</label>
               <div class="collapsible-content">

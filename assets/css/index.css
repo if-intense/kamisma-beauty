@@ -103,6 +103,7 @@ input[type=checkbox] {
   width: 100%;
   aspect-ratio: 16/9;
   display: flex;
+  background: #555555 !important;
   justify-content: center;
   align-items: center;
 }
@@ -112,7 +113,7 @@ input[type=checkbox] {
   align-items: center;
 }
 .jumbotron .container .logo {
-  width: clamp(300px, 50%, 900px);
+  width: clamp(350px, 50%, 900px);
 }
 .jumbotron .container .logo h5 {
   color: #fff;
@@ -136,7 +137,7 @@ section .container {
   background: #E9B65B;
 }
 .section01 .main {
-  width: clamp(350px, 85%, 912px);
+  width: 85%;
   margin: 0 auto;
 }
 .section01 .main h5, .section01 .main h4 {
@@ -269,6 +270,7 @@ section .container {
 .section08 .banner .text p {
   margin-top: 20px;
   font-size: 0.8em;
+  line-height: 2em;
 }
 .section08 .banner .book {
   display: flex;
@@ -415,6 +417,33 @@ section .container {
   font-size: 24px;
   padding: 20px 0;
 }
+.section14 .container .sns-links .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: linear-gradient(155deg, #4C57A2 8%, #87439A 50%, #e02870 85%);
+  position: relative;
+  overflow: hidden;
+}
+.section14 .container .sns-links .icon:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: -60%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(#f6dd84 15%, rgba(255, 45, 45, 0.65) 50%, rgba(0, 0, 0, 0) 70%);
+}
+.section14 .container .sns-links .icon i {
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  position: relative;
+  left: -4px;
+  z-index: 1;
+}
 
 footer {
   background: black;
@@ -450,6 +479,10 @@ footer .container p a {
     max-width: 896px;
   }
 
+  .jumbotron .container .logo h5 {
+    font-size: 1em;
+  }
+
   .section01 .main h5, .section01 .main h4 {
     font-size: 1.1em;
   }
@@ -465,7 +498,7 @@ footer .container p a {
   }
 
   .jumbotron .container .logo h5 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .section06 .container .banner .img, .section07 .container .banner .img {
@@ -493,6 +526,16 @@ footer .container p a {
     text-align: center;
   }
 }
+@media screen and (max-width: 700px) {
+  .jumbotron {
+    aspect-ratio: 4/3;
+  }
+}
+@media screen and (max-width: 520px) {
+  .section01 .main h5, .section01 .main h4 {
+    font-size: 0.9em;
+  }
+}
 @media screen and (max-width: 501px) {
   .br_on {
     display: block;
@@ -510,7 +553,7 @@ footer .container p a {
     margin: 10vh 0;
   }
   .jumbotron .container .logo h5 {
-    font-size: 12px;
+    font-size: 0.8em;
     line-height: 2em;
   }
 
@@ -603,6 +646,18 @@ footer .container p a {
   }
   .section14 .container h4 {
     font-size: 1em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lbl-toggle {
+    font-size: 0.95em;
+  }
+
+  .section01 .container .main {
+    width: 100%;
+  }
+  .section01 .container .main h5, .section01 .container .main h4 {
+    font-size: 0.8em;
   }
 }
 

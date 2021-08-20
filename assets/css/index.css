@@ -648,6 +648,11 @@ footer .container p a {
     font-size: 1em;
   }
 }
+@media only screen and (device-width: 390px) {
+  .section01 .main {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 375px) {
   .lbl-toggle {
     font-size: 0.95em;

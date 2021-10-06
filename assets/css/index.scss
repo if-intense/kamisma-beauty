@@ -45,6 +45,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom:6vh;
 }
 
 input[type='checkbox'] {
@@ -395,7 +396,7 @@ section {
     background:url('../images/kb-bg-white.jpg');
     background-size: cover;
     .container {
-        margin:6vh auto;
+        margin:6vh auto 3vh;
         .text {
             h3 {
                 font-size:1.25em;

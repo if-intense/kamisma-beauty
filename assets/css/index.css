@@ -2,6 +2,7 @@
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .br_on {
@@ -31,6 +32,25 @@ body {
 
 .for-pc {
   display: block;
+}
+
+.cta {
+  padding: 0;
+  background: rgba(232, 232, 234, 0.7);
+  font-family: "Shippori Mincho B1", serif;
+}
+.cta .text h3 {
+  text-decoration: underline;
+  line-height: 1.5em;
+  margin-top: 3vh;
+  font-size: 1.25em;
+}
+.cta .text h5 {
+  font-size: 1.1em;
+  margin: 3vh auto;
+}
+.cta .img {
+  aspect-ratio: 8/4;
 }
 
 input[type=checkbox] {
@@ -99,6 +119,14 @@ input[type=checkbox] {
   margin-bottom: 0;
 }
 
+.top-banner {
+  aspect-ratio: 16/7;
+  background: url(../images/banner-top.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .jumbotron {
   width: 100%;
   aspect-ratio: 16/9;
@@ -106,6 +134,7 @@ input[type=checkbox] {
   background: #555555 !important;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .jumbotron .container {
   display: flex;
@@ -291,7 +320,7 @@ section .container {
 .section09 p {
   text-align: right;
   padding: 10px 20px 0 0;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .section09 .container {
   padding: 5vh 0;
@@ -495,6 +524,10 @@ footer .container p a {
   section .container {
     width: 100%;
     max-width: 680px;
+  }
+
+  .cta .text {
+    padding: 3vh 0;
   }
 
   .jumbotron .container .logo h5 {

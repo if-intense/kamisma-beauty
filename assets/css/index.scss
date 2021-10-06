@@ -7,6 +7,7 @@ $kamisma-font: 'Shippori Mincho B1', serif;
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .br_on {
@@ -36,6 +37,31 @@ body {
 
 .for-pc {
     display:block;
+}
+
+.cta {
+    padding:0;
+    background:rgba(232,232,234,0.7);
+    // border:2px solid $kamisma-grey;
+    font-family: $kamisma-font;
+    .text {
+        h3 {
+            text-decoration: underline;
+            line-height: 1.5em;
+            margin-top:3vh;
+            font-size:1.25em;
+        }
+        h5 {
+            font-size:1.1em;
+            margin:3vh auto;
+        }
+    }
+    .img {
+        aspect-ratio: 8/4;
+        // background:url(../images/tokio-bg.png) no-repeat;
+        // background-position: center;
+        // background-size: cover;
+    }
 }
 
 input[type='checkbox'] {
@@ -111,14 +137,36 @@ input[type='checkbox'] {
 	}
 }
 
+.top-banner {
+    aspect-ratio: 16/7;
+    background:url(../images/banner-top.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 
 .jumbotron {
     width:100%;
     aspect-ratio: 16/9;
     display: flex;
     background: $bg-dark;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // .overlay {
+    //     position: absolute;
+    //     z-index: 999;
+    //     height:30%;
+    //     width:100%;
+    //     top:0;
+
+    //     .promotion-banner {
+    //         background:rgba(255,255,255,0.3);
+    //         height: 100%;
+    //     }
+
+    // }
     .container {
         display: flex;
         justify-content: center;
@@ -350,7 +398,8 @@ section {
     p {
         text-align:right;
         padding: 10px 20px 0 0;
-        font-size:0.8em;
+        font-size: 0.7em;
+        
     }
     .container {
         padding:5vh 0;
@@ -631,6 +680,12 @@ footer {
             max-width: 680px;
         }
     } 
+
+    .cta {
+        .text {
+            padding:3vh 0;
+        }
+    }
     
     .jumbotron {
         .container {

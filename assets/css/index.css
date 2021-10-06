@@ -116,9 +116,9 @@ input[type=checkbox] {
   list-style-type: none;
 }
 .modal .modal-body ul li {
-  font-weight: bold;
   line-height: 1.5em;
   text-align: center;
+  font-size: 0.8em;
 }
 
 .top-banner {

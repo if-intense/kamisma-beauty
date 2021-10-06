@@ -31,8 +31,54 @@ navLinks.forEach((l) => {
 })
 </script>
 
+<script>
+  $(document).ready(function(){
+      $("#myModal").modal('show');
+  });
+</script>
+
+
 <body>
     <div class="wrapper">
+
+    
+    
+    <div id="myModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/images/top-banner-1.png" alt="キャンペーン" class="img-fluid">
+            <div class="list">
+              <p class="text-center mt-3">以下からいずれか1セットをお届けいたします。<br class="br_on">ご到着までお楽しみにお待ちください！</p>
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <ul class="p-0 my-5">
+                    <li>TOKIO IE プラチナム トラベルサイズ 3点セット</li>
+                    <li>TOKIO IE プレミアム トラベルサイズ 3点セット</li>
+                    <li>LIKE トラベルサイズ　3点セット</li>
+                    <li>ASIA インピタリ トラベルサイズ 3点セット</li>
+                    <li>ASIA インピタリ モイスト トラベルサイズ 3点セット</li>
+                    <li>KEVIN.MURPHY ヤングアゲイン トラベル2点セット</li>
+                    <li>KEVIN.MURPHY ハイドレートミー トラベル2点セット</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <img src="assets/images/modal-image.png" alt="商品画像" class="img-fluid">
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+            <a href="https://www.kamisma.com/sign-up" class="btn btn-primary">KAMISMA BEAUTY登録ページへ</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
       <!-- <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -97,10 +143,27 @@ navLinks.forEach((l) => {
         </div>
     </div>
 </nav>
-        <a href="https://www.kamisma.com/sign-up">
+        <!-- <a href="https://www.kamisma.com/sign-up">
         <div class="top-banner">
         </div>
         </a>
+
+        <div class="list">
+          以下からいずれか1セットをお届けいたします。ご到着までお楽しみにお待ちください！
+          <ul>
+            <li>TOKIO IE プラチナム トラベルサイズ</li>
+            <li>TOKIO IE プレミアム トラベルサイズ</li>
+            <li>LIKE トラベルサイズ</li>
+            <li>ASIA トラベルサイズ</li>
+            <li>ASIA トラベルサイズ</li>
+            <li>KEVIN.MURPHY トラベルサイズ</li>
+            <li>KEVIN.MURPHY トラベルサイズ</li>
+          </ul>
+        </div> -->
+
+        
+
+        
 
         <div class="jumbotron">
 
@@ -109,6 +172,11 @@ navLinks.forEach((l) => {
                     <h1><img src="assets/images/kamisma-beauty-gold-logo.png" alt="KAMISMA BEAUTY" class="img-fluid"></h1>
                     <h5>美しさを、ラグジュアリーに。<br>
                     日本が誇る一流のカミカリスマ美容師の<br>最上級の特別メニューをご体感ください。</h5>
+                    <div class="text-center my-5">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        キャンペーン企画を見る
+                      </button>
+                    </div>
                 </div>
             </div>
             

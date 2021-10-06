@@ -121,6 +121,22 @@ input[type='checkbox'] {
 	}
 }
 
+.modal {
+    .modal-header {
+        border-bottom: none;
+    }
+    .modal-body {
+        ul {
+            list-style-type: none;
+            li {
+                font-weight:bold;
+                line-height: 1.5em;
+                text-align: center;
+            }
+        }
+    }
+}
+
 .top-banner {
     aspect-ratio: 16/7;
     background:url(../images/banner-top.png) no-repeat;

@@ -35,22 +35,11 @@ body {
 }
 
 .cta {
-  padding: 0;
-  background: rgba(232, 232, 234, 0.7);
-  font-family: "Shippori Mincho B1", serif;
-}
-.cta .text h3 {
-  text-decoration: underline;
-  line-height: 1.5em;
-  margin-top: 3vh;
-  font-size: 1.25em;
-}
-.cta .text h5 {
-  font-size: 1.1em;
-  margin: 3vh auto;
-}
-.cta .img {
-  aspect-ratio: 8/4;
+  aspect-ratio: 16/7;
+  background: url(../images/mid-banner.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 input[type=checkbox] {

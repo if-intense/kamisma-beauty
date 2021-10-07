@@ -36,10 +36,6 @@ body {
 
 .cta {
   aspect-ratio: 16/7;
-  background: url(../images/mid-banner.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
   margin-bottom: 6vh;
 }
 

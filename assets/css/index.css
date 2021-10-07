@@ -508,6 +508,7 @@ footer .container p a {
 
   .modal-dialog {
     max-width: 85%;
+    margin: 0 auto;
   }
 
   .jumbotron .container .logo h5 {
@@ -647,6 +648,10 @@ footer .container p a {
   .section01 .main h5, .section01 .main h4 {
     font-size: 0.8em;
     line-height: 2em;
+  }
+
+  .modal-dialog {
+    max-width: 95%;
   }
 
   .section01 .container {

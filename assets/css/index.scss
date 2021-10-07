@@ -643,6 +643,7 @@ footer {
 
     .modal-dialog {
         max-width:85%;
+        margin:0 auto;
     }
 
     .jumbotron {
@@ -888,6 +889,10 @@ footer {
                 line-height: 2em;
             }
         }
+    }
+
+    .modal-dialog {
+        max-width:95%;
     }
 
     

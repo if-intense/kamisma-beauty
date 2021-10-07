@@ -641,6 +641,10 @@ footer {
         }
     } 
 
+    .modal-dialog {
+        max-width:85%;
+    }
+
     .jumbotron {
         .container {
             .logo {
@@ -902,9 +906,7 @@ footer {
         }
     }
 
-    .section05 {
-        aspect-ratio: 3/1;
-    }
+
 
     .section08 {
         .banner {

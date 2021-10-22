@@ -738,7 +738,7 @@ footer .container p a {
     width: 100%;
   }
   .section01 .container .main h5, .section01 .container .main h4 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .section06 .container .banner .text .inner h5, .section07 .container .banner .text .inner h5 {
@@ -750,7 +750,7 @@ footer .container p a {
   }
 
   .modal .modal-content .modal-body .list p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .modal .modal-content .modal-body .list ul li {
     font-size: 0.75em;

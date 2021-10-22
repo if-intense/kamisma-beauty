@@ -1047,6 +1047,19 @@ footer {
    }
 }
 
+
+@media only screen and (max-width: 400px) {   
+    .section08 {
+        .banner {
+            .text {
+                p {
+                    font-size:1em;
+                }
+            }
+        }
+    }
+ }
+
 @media only screen and (max-width: 390px) {   
     .section01 {
         .main {

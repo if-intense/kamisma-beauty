@@ -670,11 +670,15 @@ footer .container p a {
     max-width: 95%;
   }
 
+  .modal .modal-body ul li {
+    font-size: 0.95em;
+  }
+
   .section01 .container {
     width: 100%;
   }
   .section01 .container .main h5, .section01 .container .main h4 {
-    font-size: 0.95em;
+    font-size: 1em;
   }
 
   .section04 .main h4, .section04 .main h5 {

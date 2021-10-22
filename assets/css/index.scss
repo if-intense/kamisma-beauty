@@ -917,6 +917,16 @@ footer {
         max-width:95%;
     }
 
+    .modal {
+        .modal-body {
+            ul {
+                li {
+                    font-size: 0.95em;
+                }
+            }
+        }
+    }
+
     
 
     .section01 {
@@ -924,7 +934,7 @@ footer {
             width: 100%;
             .main {
                 h5, h4 {
-                    font-size: 0.95em;
+                    font-size: 1em;
                 }
             }
         }

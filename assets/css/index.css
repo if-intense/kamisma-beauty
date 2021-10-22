@@ -693,8 +693,11 @@ footer .container p a {
     max-width: 95%;
   }
 
+  .modal .modal-body .list p {
+    line-height: 1.5em;
+  }
   .modal .modal-body ul li {
-    font-size: 0.95em;
+    font-size: 1em;
   }
   .modal .modal-body .book h6 {
     font-size: 1em;
@@ -739,10 +742,10 @@ footer .container p a {
   }
 
   .modal .modal-body .book h6 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .modal .modal-body .book p {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 @media only screen and (max-width: 420px) {

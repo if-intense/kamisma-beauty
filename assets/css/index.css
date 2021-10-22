@@ -649,7 +649,7 @@ footer .container p a {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 440px) {
   .lbl-toggle {
     font-size: 0.95em;
   }
@@ -672,6 +672,9 @@ footer .container p a {
 
   .section01 .container {
     width: 100%;
+  }
+  .section01 .container .main h5, .section01 .container .main h4 {
+    font-size: 0.95em;
   }
 
   .section04 .main h4, .section04 .main h5 {

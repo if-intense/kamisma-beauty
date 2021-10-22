@@ -1035,6 +1035,18 @@ footer {
     }
 }
 
+@media only screen and (max-width: 414px) {   
+   .modal {
+       .modal-body {
+           ul {
+               li {
+                   font-size: 0.9em;
+               }
+           }
+       }
+   }
+}
+
 @media only screen and (max-width: 390px) {   
     .section01 {
         .main {

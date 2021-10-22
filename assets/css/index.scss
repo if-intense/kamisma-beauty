@@ -126,6 +126,7 @@ input[type='checkbox'] {
         border-bottom: none;
     }
     .modal-body {
+        padding:0;
         ul {
             list-style-type: none;
             li {
@@ -1021,6 +1022,8 @@ footer {
         }
     }
 }
+
+
 
 
 @media only screen and (max-width: 420px) {   

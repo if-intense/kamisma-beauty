@@ -108,6 +108,9 @@ input[type=checkbox] {
 .modal .modal-header {
   border-bottom: none;
 }
+.modal .modal-body {
+  padding: 0;
+}
 .modal .modal-body ul {
   list-style-type: none;
 }

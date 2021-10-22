@@ -115,13 +115,15 @@ input[type=checkbox] {
 .modal .modal-body {
   padding: 0;
 }
+.modal .modal-body .list p {
+  line-height: 2em;
+}
 .modal .modal-body ul {
   list-style-type: none;
 }
 .modal .modal-body ul li {
-  line-height: 1.5em;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 .modal .modal-body .book {
   text-align: center;
@@ -527,6 +529,10 @@ footer .container p a {
     margin: 0 auto;
   }
 
+  .modal .modal-body ul li {
+    font-size: 0.7em;
+  }
+
   .jumbotron .container .logo h5 {
     font-size: 1em;
   }
@@ -547,6 +553,10 @@ footer .container p a {
 
   .cta .text {
     padding: 3vh 0;
+  }
+
+  .modal .modal-body ul li {
+    font-size: 0.9em;
   }
 
   .jumbotron .container .logo h5 {
@@ -685,6 +695,9 @@ footer .container p a {
 
   .modal .modal-body ul li {
     font-size: 0.95em;
+  }
+  .modal .modal-body .book h6 {
+    font-size: 1em;
   }
 
   .section01 .container {

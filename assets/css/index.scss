@@ -130,13 +130,18 @@ input[type='checkbox'] {
     }
     .modal-body {
         padding:0;
+        .list {
+            p {
+                line-height: 2em;
+            }
+        }
         ul {
             list-style-type: none;
             li {
                 // font-weight:bold;
-                line-height: 1.5em;
+                // line-height: 2em;
                 text-align: center;
-                font-size:0.8em;
+                font-size:1em;
             }
         }
         
@@ -661,6 +666,16 @@ footer {
         margin:0 auto;
     }
 
+    .modal {
+        .modal-body {
+            ul {
+                li {
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+
     .jumbotron {
         .container {
             .logo {
@@ -705,6 +720,16 @@ footer {
     .cta {
         .text {
             padding:3vh 0;
+        }
+    }
+
+    .modal {
+        .modal-body {
+            ul {
+                li {
+                    font-size: 0.9em;
+                }
+            }
         }
     }
     
@@ -942,6 +967,11 @@ footer {
             ul {
                 li {
                     font-size: 0.95em;
+                }
+            }
+            .book {
+                h6 {
+                    font-size: 1em;
                 }
             }
         }

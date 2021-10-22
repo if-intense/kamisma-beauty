@@ -147,7 +147,7 @@ input[type=checkbox] {
   width: 100%;
   aspect-ratio: 16/9;
   display: flex;
-  background: #555555 !important;
+  background: #727272;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -695,9 +695,10 @@ footer .container p a {
 
   .modal .modal-body .list p {
     line-height: 1.5em;
+    font-size: 1.1em;
   }
   .modal .modal-body ul li {
-    font-size: 1em;
+    font-size: 1.05em;
   }
   .modal .modal-body .book h6 {
     font-size: 1em;
@@ -754,8 +755,15 @@ footer .container p a {
   }
 }
 @media only screen and (max-width: 414px) {
+  .modal .modal-body .list p {
+    line-height: 1.5em;
+    font-size: 1em;
+  }
   .modal .modal-body ul li {
-    font-size: 0.9em;
+    font-size: 0.95em;
+  }
+  .modal .modal-body .book h6 {
+    font-size: 1em;
   }
 }
 @media only screen and (max-width: 400px) {

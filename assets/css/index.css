@@ -9,6 +9,10 @@ body {
   display: none;
 }
 
+.br_on_376 {
+  display: none;
+}
+
 .br_on_tablet {
   display: none;
 }
@@ -762,6 +766,10 @@ footer .container p a {
 
   .section06 .container .banner .text .inner h5, .section07 .container .banner .text .inner h5 {
     font-size: 0.84em;
+  }
+
+  .br_on_376 {
+    display: block;
   }
 
   .section08 .banner .text p {

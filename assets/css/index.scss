@@ -14,6 +14,9 @@ body {
     display: none;
 }
 
+.br_on_376 {
+    display: none;
+}
 .br_on_tablet {
     display:none;
 }
@@ -1118,6 +1121,11 @@ footer {
             }
         }
     }
+
+    .br_on_376 {
+        display: block;
+    }
+
     .section08 {
         .banner {
             .text {

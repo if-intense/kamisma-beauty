@@ -615,6 +615,7 @@ footer .container p a {
   }
   .section01 .container .main h5, .section01 .container .main h4 {
     font-size: 0.95em;
+    line-height: 2em;
   }
 
   .section04 .container {
@@ -625,8 +626,13 @@ footer .container p a {
     font-size: 1em;
   }
 
+  .section06 .container .banner .text .inner h5, .section07 .container .banner .text .inner h5 {
+    font-size: 1em;
+  }
+
   .section08 .banner .text p {
     text-align: center;
+    font-size: 1em;
   }
 
   .section09 .container p {

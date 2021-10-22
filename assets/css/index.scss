@@ -818,6 +818,7 @@ footer {
         .main {
             h5, h4 {
                 font-size:0.95em;
+                line-height:2em;
             }
         }
        }
@@ -836,6 +837,20 @@ footer {
             }
         }
     }
+
+    .section06, .section07 {
+        .container {
+            .banner {
+                .text {
+                    .inner {
+                        h5 {
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
    
 
     .section08 {
@@ -843,6 +858,7 @@ footer {
             .text {
                 p {
                     text-align: center;
+                    font-size: 1em;
                 }
             }
         }

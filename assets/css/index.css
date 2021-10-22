@@ -612,7 +612,7 @@ footer .container p a {
   }
 
   .jumbotron .container .logo {
-    margin: 10vh 0;
+    margin: 10vh 0 5vh;
   }
   .jumbotron .container .logo h5 {
     font-size: 1em;

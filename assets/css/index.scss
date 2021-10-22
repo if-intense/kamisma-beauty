@@ -135,6 +135,17 @@ input[type='checkbox'] {
                 font-size:0.8em;
             }
         }
+        
+        .book {
+            // color:red;
+            text-align: center;
+            h6 {
+                font-size:0.8em;
+            }
+            p {
+                font-size: 0.7em;
+            }
+        }
     }
 }
 
@@ -760,7 +771,7 @@ footer {
   .section01 {
     .main {
       h5, h4 {
-        font-size:0.9em;
+        font-size:1em;
       }
     }
   }
@@ -786,7 +797,7 @@ footer {
         .container {
             .logo {
                 h5 {
-                    font-size:0.8em;
+                    font-size:1em;
                     line-height:2em;
                 }
                 margin:10vh 0;
@@ -805,7 +816,7 @@ footer {
            width: 100%;
         .main {
             h5, h4 {
-                font-size:0.8em;
+                font-size:0.95em;
             }
         }
        }
@@ -880,12 +891,23 @@ footer {
 
     .lbl-toggle {
         font-size:0.95em;
-    }    
+    }
+    
+    .jumbotron {
+        .container {
+            .logo {
+                h5 {
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
 
     .section01 {
         .main {
+            width: 100%;
             h5, h4 {
-                font-size: 0.8em;
+                font-size: 1em;
                 line-height: 2em;
             }
         }
@@ -906,7 +928,21 @@ footer {
     .section04 {
         .main {
             h4, h5 {
-                font-size:0.9em;
+                font-size:1em;
+            }
+        }
+    }
+
+    .section06, .section07 {
+        .container {
+            .banner {
+                .text {
+                    .inner {
+                        h5 {
+                            font-size: 0.9em;
+                        }
+                    }
+                }
             }
         }
     }
@@ -919,6 +955,7 @@ footer {
                 padding:20px 5px;
                 p {
                     text-align: center;
+                    font-size: 0.9em;
                 }
             }
         }
@@ -929,7 +966,7 @@ footer {
             .text {
                 .inner {
                     h3 {
-                        font-size:1em;
+                        font-size:1.15em;
                     }
                 }
             }
@@ -950,14 +987,40 @@ footer {
                 font-size:1.25em;
             }
             h4 {
-                font-size:1em;
+                font-size:1.1em;
+            }
+        }
+    }
+
+    .modal {
+        .modal-body {
+            .book {
+                // color:red;
+                h6 {
+                    font-size:0.8em;
+                }
+                p {
+                    font-size: 0.7em;
+                }
             }
         }
     }
 }
 
 
-@media only screen and (device-width: 390px) {   
+@media only screen and (max-width: 420px) {   
+    .section01 {
+        .container {
+            .main {
+                h5, h4 {
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 390px) {   
     .section01 {
         .main {
             width: 95%;
@@ -966,7 +1029,7 @@ footer {
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:376px) {
 
     .lbl-toggle {
         font-size:0.95em;
@@ -983,4 +1046,46 @@ footer {
         }
     }
 
+    .section06, .section07 {
+        .container {
+            .banner {
+                .text {
+                    .inner {
+                        h5 {
+                            font-size: 0.8em;
+                        }
+                    }
+                }
+            }
+        }
     }
+    .section08 {
+        .banner {
+            .text {
+                p {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+    .modal {
+        .modal-content {
+            .modal-body {
+                .list {
+                    p {
+                        font-size: 0.8em;
+                    }
+                    ul {
+                        li {
+                            font-size: 0.75em;
+                        }
+                    }
+                }
+                
+                
+                
+            }
+        }
+    }
+
+}

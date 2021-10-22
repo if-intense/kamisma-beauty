@@ -801,10 +801,10 @@ footer .container p a {
   }
 
   .modal .modal-content .modal-body .list p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .modal .modal-content .modal-body .list ul li {
-    font-size: 0.75em;
+    font-size: 0.95em;
   }
 }
 
